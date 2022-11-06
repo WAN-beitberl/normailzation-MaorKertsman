@@ -1,0 +1,9 @@
+1. The id and customerId should be primary key, because we want each combination to be uniq, with no duplicates. Also we would want to organize the purcheses in a different table that contains the customerID and the purchese
+
+2. There can be two id's with the same customerId
+
+3. CREATE TABLE (id INTEGER PRIMARY KEY, customerID INTEGER PRIMARY KEY, name TEXT);
+   CREATE TABLE (customerID INTEGER, purchese TEXT);
+
+4. The table comprimize uniq keys and organization of different purcheses
+
